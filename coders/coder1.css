@@ -1,0 +1,62 @@
+
+.grande{
+   padding: 20px;
+    margin: 0 auto;
+    width:80%;
+    border: 2px solid black;
+    text-align: center
+}
+/*....imagen*/
+.uno{
+    text-align: center
+}
+.uno img{
+width: 200px;
+height:200px;
+border-radius: 190px   
+}
+.uno p{
+    position: relative;
+   width:35em;
+    left: 20%;
+}
+/*-----cubos*/
+.dos h2{
+    text-align:left;
+}
+.dos #primer{
+position: relative;
+  background-color:darkgrey;
+  width: 20em;
+  left: 40px;
+  padding:10px;      
+}
+.dos #segundo{
+  position: relative;
+  background-color: darkgray;
+  width: 15em;
+  left: 40px;
+   padding: 10px; 
+}
+.dos #tercero{
+    position: relative;
+    background-color: darkgray;
+    width: 10em;
+    left: 40px;
+    padding: 10px;
+}
+/*--imagenes*/
+.tres h2{
+    text-align: left;
+}
+.tres img{
+ width: 300px; 
+ margin:10px   
+}
+.d{
+  display: inline-block;  
+}
+.s{
+    display: inline-block;
+}
+    

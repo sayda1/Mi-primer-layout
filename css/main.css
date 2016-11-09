@@ -1,0 +1,67 @@
+.contenedor{
+  width: 60%;
+   text-align:center;
+   margin:0 auto;
+} 
+/*----------tutulo*/
+.padre img{
+ width: 500px;
+   }
+/*-- lista hrf*/
+.padre  ul li {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+     border-right:1px solid black;
+    margin: 10px;
+    
+    }
+.padre a{
+  text-align: center;  
+  text-decoration: none;
+    color: black;
+    font-size: 19px;
+ 
+}
+/*----hr*/
+.padre hr{
+    text-align: center;
+  border: 1px solid black;
+  width: 500px;
+}
+/*---imagen grande*/
+.hijo1 img{
+    width: 800px;
+    
+}
+.hijo1 p{
+  font-size: 20px  
+}
+/*---nustras codres*/
+h1{
+ text-align:left; 
+    font-size: 25px;
+    font-family:inherit;
+    
+}
+hr{
+    width: 130px;
+    border: 1px solid black;
+}
+.hijo2 hr{
+   position: relative;
+    right:18em;
+}
+
+.u{
+ display: inline-block;  
+}
+.n{
+    display: inline-block;
+}
+.h{
+ position: relative;
+ bottom: 30px;
+color: aliceblue;
+left: 30px;
+}
