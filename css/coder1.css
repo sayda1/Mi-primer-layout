@@ -1,0 +1,53 @@
+.grande{
+    padding: 20px;
+    margin: 0px 18%;
+    border: 2px solid black;
+    font-family: serif;
+}
+/*----------------------------HEADER-----FOTITO----------------------*/
+header{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+header img{
+    border-radius: 300px;
+}
+/*----------------------------SECTION--HABILIDADES----IMAGENES----------------------*/
+section{
+    font-size: 30px;
+    font-weight: 1000;
+}
+#primer{
+    position: relative;
+    background-color:darkgrey;
+    width: 20em;
+    left: 40px;
+    padding:10px;
+    color: white;
+}
+ #segundo{
+    position: relative;
+    background-color: darkgray;
+    width: 15em;
+    left: 40px;
+    padding: 10px; 
+    color: white;
+}
+#tercero{
+    color: white;
+    position: relative;
+    background-color: darkgray;
+    width: 10em;
+    left: 40px;
+    padding: 10px;
+} 
+section ul {
+    text-align: center;
+}
+section ul li {
+    margin: 10px;
+}
+section img {
+    width: 200px;
+}

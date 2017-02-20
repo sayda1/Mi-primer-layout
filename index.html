@@ -4,77 +4,86 @@
   <meta charset="UTF-8">
   <title>Mi Primer Layout</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="">
-  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">  
 </head>
 <body>
- <div class="contenedor">
-  <div class="padre">
-  <img src="img/logo.png" alt="">
-  <hr>
-  <ul>
-    <li><a href="coders/coder1.html">Inicio</a></li>
-    <li><a href="#">Sobre Nosotras</a></li>
-    <li><a href="#"> Nuestras Coders</a></li>
-    <li><a href="#">Contacto</a></li>
-  <hr>       
-      </ul>
-   </div>
-   <div class="hijo1">
-    <img src="img/grupal.jpg" alt="">
-   <hr>
-    <p> Laboratoria existe para encontrar jóvenes
-mujeres con potencial pero sin acceso a
-educación superior de calidad, y
-transformarlas en talentosas desarrolladoras
-web, que sirven clientes locales e
-internacionales con soluciones digitales de
-excelente calidad </p>
- <hr>
-  </div>
-  <div class="hijo2">
-     <h1>Nuestras codres</h1>
-     <hr>
-		<div class="u">
-		    <a href="coders/coder1.html"><img src="img/profile-1.png" alt="">
-           </a>
-            <div class="h">nombre y apellido</div>
-            </div>
-            <div class="u">
-            <a href="coders/coders2.html">
-		    <img src="img/profile-2.png" alt="">
-          </a>
-		      <div class="h">nombre y apellido</div>
-            </div>
-            
-		    <div class="u">
-		    <a href="">
-		    <img src="img/profile-3.png" alt="">
-               </a>
-                <div class="h">nombre y apellido</div>
-            </div>
-            
-		<div class="n">
-        <a href="custro">
-		    <img src="img/profile-4.png" alt="">
-          </a>
-		      <div class="h">nombre y apellido</div>
-		      </div>
-		      
-		      <div class="n">
-		      <a href="cinco">
-		    <img src="img/profile-5.png" alt="">
-		    </a>
-		     <div class="h">nombre y apellido</div>
-		      </div>
-          <div class="n">
-            <a href="seis">
-             <img src="img/profile-6.png" alt="">
-             </a>
-             <div class="h">nombre y apellido</div>
+ <header>
+     <div class="container">
+          <div class="row text-center" >
+              <img src="img/logo.png" alt="">
+              <nav>
+                 <hr>
+                  <ul class="list-inline">
+                    <li><a href="coder1.html">Inicio</a></li>
+                    <li><a href="#">Sobre Nosotras</a></li>
+                    <li><a href="#"> Nuestras Coders</a></li>
+                    <li class="ultimo"><a href="#">Contacto</a></li>
+                  <hr>       
+                  </ul>
+              </nav>
           </div>
-           
-  </div>
-  </div>
+     </div>
+ </header>
+ 
+ <section>
+     <div class="container">
+         <div class="row text-center">
+                <div class="hijo1">
+                    <img src="img/grupal.jpg" alt="">
+                   <hr>
+                   <div class="caja">
+                        <p class="parrafo"> Laboratoria existe para encontrar jóvenes
+                        mujeres con potencial pero sin acceso a
+                        educación superior de calidad, y
+                        transformarlas en talentosas desarrolladoras
+                        web, que sirven clientes locales e
+                        internacionales con soluciones digitales de
+                        excelente calidad 
+                    </p>
+                   </div>
+                 <hr>
+              </div>
+         </div>
+     </div>
+ </section>
+ <section>
+     <div class="container">
+         <p class="titulo">Nuestras codres</p>
+         <hr>
+          <div class="row text-center">
+              <ul class="list-inline">
+                  <li>
+                       <a href="coders1.html"><img src="img/profile-1.png" alt=""></a>
+                       <p class="datos">Nombre y Apellido</p>
+                  </li>
+                  <li>
+                      <a href="coders2.html"><img src="img/profile-2.png" alt=""></a>
+                      <p class="datos">Nombre y Apellido</p>
+                    </li>
+                  <li>
+                      <img src="img/profile-3.png" alt="">
+                      <p class="datos">Nombre y Apellido</p>
+                    </li>
+              </ul> 
+          </div>
+          <div class="row text-center">
+              <ul class="list-inline">
+                   <li>
+                       <img src="img/profile-4.png" alt="">
+                       <p class="datos">Nombre y Apellido</p>
+                    </li>
+                   <li>
+                       <img src="img/profile-5.png" alt="">
+                       <p class="datos">Nombre y Apellido</p>
+                    </li>
+                   <li>
+                       <img src="img/profile-6.png" alt="">
+                       <p class="datos">Nombre y Apellido</p>
+                    </li>
+               </ul>
+          </div>
+     </div>
+ </section>
 </body>
 </html>

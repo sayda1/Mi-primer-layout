@@ -1,67 +1,59 @@
-.contenedor{
-  width: 60%;
-   text-align:center;
-   margin:0 auto;
-} 
-/*----------tutulo*/
-.padre img{
- width: 500px;
-   }
-/*-- lista hrf*/
-.padre  ul li {
-    text-align: center;
-    list-style: none;
-    display: inline-block;
-     border-right:1px solid black;
-    margin: 10px;
-    
-    }
-.padre a{
-  text-align: center;  
-  text-decoration: none;
+body{
+    margin: 0;
+    padding: 0;
+}
+/*----------------------------HEADER-------------------------*/
+header hr{
+    width: 650px;
+    border-top: 2px solid black; 
+    padding: 0px;
+}
+header ul li {
+    border-right: 2px solid black; 
+}
+header ul li a {
+    padding-right: 10px;
+    text-decoration: none;
     color: black;
-    font-size: 19px;
- 
-}
-/*----hr*/
-.padre hr{
-    text-align: center;
-  border: 1px solid black;
-  width: 500px;
-}
-/*---imagen grande*/
-.hijo1 img{
-    width: 800px;
-    
-}
-.hijo1 p{
-  font-size: 20px  
-}
-/*---nustras codres*/
-h1{
- text-align:left; 
     font-size: 25px;
-    font-family:inherit;
-    
+    font-family:serif;
+    font-weight: 600;
 }
-hr{
-    width: 130px;
-    border: 1px solid black;
+.ultimo {
+    border-right: none;
 }
-.hijo2 hr{
-   position: relative;
-    right:18em;
+/*-----------------------SECTIONES-----------------*/
+section ul li {
+    margin: 10px;
 }
-
-.u{
- display: inline-block;  
+.hijo1 img{
+    width: 60%;
 }
-.n{
-    display: inline-block;
+.hijo1 hr{
+    margin: 10px 47%;
+    border-bottom: 2px solid #6c6c6c;
 }
-.h{
- position: relative;
- bottom: 30px;
-color: aliceblue;
-left: 30px;
+.caja{
+    font-family: serif;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 0px 20%;
+}
+.titulo{
+    text-align: left;
+    margin:0 15%;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bolder;
+}
+.datos{
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    margin-top: -30px;
+    margin-right: -60px;
+}
+section hr {
+    margin: 0px 80% 0px 15%;
+    border-top:6px solid black;
 }
